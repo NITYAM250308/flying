@@ -8,9 +8,9 @@ function preload(){
 
 function setup() {
   createCanvas(windowWidth,windowHeight);
-  ground = createSprite(windowHeight,windowWidth)
+  ground = createSprite(width/2,height/2- 120)
   ground.addImage(groundImg);
-  ground.scale=0.4
+  ground.scale=0.1
  
 }
 
